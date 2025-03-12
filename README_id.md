@@ -18,8 +18,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 ## Ringkasan
 
-This is a dummy description of this app features
-
+A Hassle-Free Way to Self-Host Google Fonts.
 
 **Versi terkirim:** 1.6.5~ynh1
 

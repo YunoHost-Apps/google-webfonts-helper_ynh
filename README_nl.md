@@ -18,8 +18,7 @@ Hij mag NIET handmatig aangepast worden.
 
 ## Overzicht
 
-This is a dummy description of this app features
-
+A Hassle-Free Way to Self-Host Google Fonts.
 
 **Geleverde versie:** 1.6.5~ynh1
 

@@ -18,8 +18,7 @@ EZ editatu eskuz.
 
 ## Aurreikuspena
 
-This is a dummy description of this app features
-
+A Hassle-Free Way to Self-Host Google Fonts.
 
 **Paketatutako bertsioa:** 1.6.5~ynh1
 
