@@ -47,10 +47,10 @@ yunohost service add "$app" --description="Self-Host Google Fonts" --log="/var/l
 ynh_script_progression "Installing the app..."
 
 pushd "$install_dir"
- 	ynh_hide_warnings npm install
- 	ynh_hide_warnings npm install -g bower grunt@0.4.5 grunt-cli@1.2.0
- 	ynh_hide_warnings bower install
-	ynh_hide_warnings grunt build
+ 	ynh_hide_warnings ynh_exec_as_app npm install
+ 	ynh_hide_warnings ynh_exec_as_app npm install -g bower grunt@0.4.5 grunt-cli@1.2.0
+ 	ynh_hide_warnings ynh_exec_as_app bower install
+	ynh_hide_warnings ynh_exec_as_app grunt build
 popd
 
 #=================================================
