@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Un moyen simple d'auto-héberger les polices de caractères Google.
