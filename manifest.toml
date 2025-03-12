@@ -1,0 +1,57 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "google-webfonts"
+name = "Google WebFonts"
+description.en = "Self-Host Google Fonts"
+description.fr = "Polices de caractères Google auto-hébergées"
+
+version = "1.6.5~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+website = "https://gwfh.mranftl.com/"
+demo = "https://gwfh.mranftl.com/fonts"
+code = "https://github.com/majodev/google-webfonts-helper"
+
+[integration]
+yunohost = ">= 12.0.9"
+helpers_version = "2.1"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    url = "https://github.com/majodev/google-webfonts-helper/archive/refs/tags/v1.6.5.tar.gz"
+    sha256 = "9574690b058f585586353bfb33ee31affdc7afbe829bf19411d63e0f6b8c50c1"
+    # autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
