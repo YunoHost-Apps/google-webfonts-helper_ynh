@@ -20,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 A Hassle-Free Way to Self-Host Google Fonts.
 
-**Versi terkirim:** 1.6.5~ynh1
+**Versi terkirim:** 1.7.0~ynh1
 
 **Demo:** <https://gwfh.mranftl.com/fonts>
 

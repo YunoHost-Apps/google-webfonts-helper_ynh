@@ -20,7 +20,7 @@ Il NE doit PAS être modifié à la main.
 
 Un moyen simple d'auto-héberger les polices de caractères Google.
 
-**Version incluse :** 1.6.5~ynh1
+**Version incluse :** 1.7.0~ynh1
 
 **Démo :** <https://gwfh.mranftl.com/fonts>
 

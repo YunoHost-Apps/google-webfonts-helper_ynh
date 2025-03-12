@@ -20,7 +20,7 @@
 
 A Hassle-Free Way to Self-Host Google Fonts.
 
-**Поставляемая версия:** 1.6.5~ynh1
+**Поставляемая версия:** 1.7.0~ynh1
 
 **Демо-версия:** <https://gwfh.mranftl.com/fonts>
 
