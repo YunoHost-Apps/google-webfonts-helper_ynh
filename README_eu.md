@@ -20,7 +20,7 @@ EZ editatu eskuz.
 
 A Hassle-Free Way to Self-Host Google Fonts.
 
-**Paketatutako bertsioa:** 1.6.5~ynh1
+**Paketatutako bertsioa:** 1.7.0~ynh1
 
 **Demoa:** <https://gwfh.mranftl.com/fonts>
 

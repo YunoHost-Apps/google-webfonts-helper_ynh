@@ -20,7 +20,7 @@ NON debe editarse manualmente.
 
 A Hassle-Free Way to Self-Host Google Fonts.
 
-**Versión proporcionada:** 1.6.5~ynh1
+**Versión proporcionada:** 1.7.0~ynh1
 
 **Demo:** <https://gwfh.mranftl.com/fonts>
 
