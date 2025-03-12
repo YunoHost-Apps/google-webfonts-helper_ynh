@@ -10,7 +10,8 @@ Environment="PATH=__PATH_WITH_NODEJS__"
 Environment="NODE_ENV=production"
 Environment="PORT=__PORT__"
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__NODEJS_DIR__/node dist/server/app.js
+ExecStart=__NODEJS_DIR__/node start
+#ExecStart=__NODEJS_DIR__/node dist/server/app.js
 Restart=on-failure
 
 ### Depending on specificities of your service/app, you may need to tweak these
